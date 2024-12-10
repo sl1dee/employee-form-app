@@ -1,0 +1,21 @@
+.select {
+  display: flex;
+  flex-direction: column;
+  background-color: #F0F0F0;
+  border-radius: 2px;
+  height: fit-content;
+
+
+  label {
+    font-weight: bold;
+  }
+
+  select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #F0F0F0;
+    background-color: #F0F0F0;
+    width: 100%;
+    border-radius: 2px;
+  }
+}

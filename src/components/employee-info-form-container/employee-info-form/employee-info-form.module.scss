@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  row-gap: 20px;
+  padding: 20px;
+
+  .title {
+    font-size: 20px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 10px;
+
+    .gridGroup {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .btnPosition {
+      display: flex;
+      justify-content: end;
+
+
+      .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #10B86C;
+        border: none;
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 2px;
+        width: 49%;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: #00A968;
+        }
+      }
+    }
+  }
+}
